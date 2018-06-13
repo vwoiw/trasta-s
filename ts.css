@@ -1,0 +1,54 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Arial', Helvetica, Sans-serif;
+}
+body {
+	padding: 0;
+	margin: 0;
+	font-size: 12px;
+	color: #ecaa70;
+}
+.bg {
+	background: url('bg.jpg') top left no-repeat;
+	background-size: cover;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	display: none;
+}
+.ts.nav {
+	width: 100%;
+	height: 70px;
+	background: #000000;
+	display: none;
+}
+.ts.nav-logo {
+	padding-top: 20px;
+	text-align: center;
+}
+.ts.nav img {
+	height: 30px;
+}
+.ts.content {
+	padding: 20px 10px;
+	display: none;
+}
+.ts.content-title {
+	font-weight: bold;
+	font-size: 24px;
+}
+.ts.content-info {
+	font-size: 14px;
+	padding-top: 10px;
+}
+.ts.content-info a {
+	color: #ecaa70;
+}
+.ts.footer {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	padding: 20px;
+	display: none;
+}
